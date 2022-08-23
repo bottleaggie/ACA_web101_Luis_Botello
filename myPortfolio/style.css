@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./mybackground.JPG);
+    background-repeat: repeat;
+    background-size: 100% 120%;
+    
+  }
+
+  /* What kind of selector is this? */
+  .logo {
+    width: 150px;
+    height: 150px;
+    margin: 3% 3%;
+    margin-bottom: -1px;
+    margin-top: 20px;
+  }
+
+  .header {
+    overflow: auto;
+    background-color: rgba(213, 213, 184, 0.711);
+    margin-top: -25px;
+    float: center;
+    margin-bottom: -80px;
+   
+  }
+
+  .header-right {
+    float: right;
+    color: rgb(19, 51, 116);
+    text-align: right;
+    padding: -20px;
+    text-decoration: solid;
+    font-size: 35px; 
+    line-height: 1px;
+    font-family: copperplate;
+    margin-right: 20PX;
+    background-color: none;
+    border-spacing: 30px;
+    margin-top: -80px;
+  }
+  
+
+  main {
+    height: 10%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+  }
+
+  /* This is an element within and element selector */ 
+  nav > a {
+    margin: 15% 15% 15%;
+    height: 10%;
+    width: 15%;
+    color: rgb(41, 15, 15);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    border-radius: 30px;
+    background: solid;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid white;
+    margin-top: 110px;
+  }
+
+  .has-border {
+    border-radius: 20px;
+    border-spacing: 10in;
+    background: solid;
+    padding: 20px;
+    margin-top: -100px;
+    margin-left: -300xp;
+    word-spacing: 03px;
+    
+  }
+
+  nav {
+    display: flex;
+    justify-content: flex-start;
+    width: 10%;
+    padding-right: 10%;
+    outline: ;
+   
+  }
+
+  /* This is an ID selector */
+  #profile-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 15% auto;
+    grid-column: 2/3;
+    margin-top: 175px;
+  }
+
+  h1 {
+    color:rgb(19, 51, 116);
+    grid-column: 2/3;
+    margin: 1% auto;
+    border-bottom: 2px solid #e83904;
+    font-family: copperplate ;
+    text-shadow: 1px 1px 2px white;
+    font-size: 40px;
+    margin-top: -60PX;
+    
+  }
+
+  h2 {
+    grid-column: 2/3;
+    margin: 1% auto;
+    font-style: italic;
+    font-family: copperplate;
+    text-shadow: 1px 1px 2px white;
+    font-size: 30px;
+    display: block;
+   
+   
+  }
+
+  .small-text {
+    grid-column: 2/3;
+    color: rgb(183, 167, 167);
+    font-size: 20px;
+    margin: 3% auto;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    margin-top: 120px;
+  }
+
+  button {
+    grid-column: 2/3;
+    margin: 1% auto;
+    width: 70%;
+    height: 15%;
+    font-family: copperplate;
+    font-size: 25px;
+    border-radius: 10px;
+    background: rgb(213, 213, 184);
+    padding: 10px;
+    padding-bottom: 5%;
+    text-align: center;
+    color: rgb(19, 51, 116);
+    letter-spacing: 10px;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    margin-top: 100PX;
+  }
+
